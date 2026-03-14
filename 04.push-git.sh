@@ -9,6 +9,7 @@
 
 set -xeu
 
+BRANCH="master"
 CHART_NAME="myfirst-api-server"
 CHART_VERSION="0.0.2"
 CHART_DIR="./myfirst-api-server"
@@ -34,7 +35,7 @@ cat index.yaml
 # ── 4) git push → GitHub Pages 배포 ─────────────────────────
 git add .
 git commit -m "add ${CHART_NAME}-${CHART_VERSION}"
-git push origin main
+git push origin ${BRANCH}
 
 echo ""
 echo "=== Push 완료 ==="

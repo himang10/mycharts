@@ -3,9 +3,9 @@ entries:
   myfirst-api-server:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-03-14T15:16:22.753679+09:00"
+    created: "2026-03-14T15:17:23.752982+09:00"
     description: A simple Helm chart for learning (Kubernetes API server deployment)
-    digest: 97c8e777e5c4664153de61dfa722b5084d55881b8414bb1a40a68eb4c164fd7e
+    digest: b5cf0d2a70f471cc2b7f13fd87646591da8822c4bfc2a06d6e4de3fc779bfa62
     name: myfirst-api-server
     type: application
     urls:
@@ -13,7 +13,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-03-14T15:16:22.753481+09:00"
+    created: "2026-03-14T15:17:23.752775+09:00"
     description: A simple Helm chart for learning (Kubernetes API server deployment)
     digest: 8caf965cc139bb7801f74b73969ff81d6651753efd294146a8d8bb657dd467ff
     name: myfirst-api-server
@@ -21,4 +21,4 @@ entries:
     urls:
     - https://himang10.github.io/mycharts/myfirst-api-server-0.0.1.tgz
     version: 0.0.1
-generated: "2026-03-14T15:16:22.752924+09:00"
+generated: "2026-03-14T15:17:23.75232+09:00"
